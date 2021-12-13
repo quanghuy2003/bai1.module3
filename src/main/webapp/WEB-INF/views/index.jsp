@@ -11,12 +11,12 @@
     <title>$Title$</title>
 </head>
 <body>
-<%--<form action="/tong">--%>
-<%--    <input type="text" name="a">--%>
-<%--    <input type="text" name="b">--%>
-<%--    <button>tính tổng</button>--%>
-<%--</form>--%>
-<%--<h1>${tong}</h1>--%>
+<form action="/tong">
+    <input type="text" name="a">
+    <input type="text" name="b">
+    <button>tính tổng</button>
+</form>
+<h1>${tong}</h1>
 <form action="/convert" method="post">
     <input type="text" name="a">
     <button>đổi</button>
@@ -24,5 +24,7 @@
 <h1>
     ${tinh}
 </h1>
+<br>
+<a href="/dictionary">  dictionary </a>
 </body>
 </html>
