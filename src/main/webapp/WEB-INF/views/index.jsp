@@ -17,12 +17,12 @@
 <%--    <button>tính tổng</button>--%>
 <%--</form>--%>
 <%--<h1>${tong}</h1>--%>
-<form action="/doi">
+<form action="/convert" method="post">
     <input type="text" name="a">
     <button>đổi</button>
 </form>
 <h1>
-    ${doi}
+    ${tinh}
 </h1>
 </body>
 </html>
